@@ -1,0 +1,1376 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101010">
+
+<title>Aspirador Portátil | Oferta Especial</title>
+<meta name="description" content="Conheça o aspirador portátil. Mais praticidade para limpar seu carro e sua casa por R$ 97,50.">
+
+<style>
+:root {
+    --yellow: #ffe500;
+    --black: #101010;
+    --green: #20c767;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--black);
+    color: var(--white);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    width: min(1120px, 90%);
+    margin: auto;
+}
+
+.hero {
+    position: relative;
+    padding: 85px 0 90px;
+    background:
+        radial-gradient(ellipse at 85% 30%, #353000 0%, transparent 34%),
+        radial-gradient(ellipse at 10% 80%, #222222 0%, transparent 40%),
+        var(--black);
+    overflow: hidden;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.15fr .85fr;
+    align-items: center;
+    gap: 55px;
+    position: relative;
+    z-index: 1;
+}
+
+.eyebrow {
+    display: inline-block;
+    color: var(--yellow);
+    border: 1px solid rgba(255,229,0,.4);
+    background: rgba(255,229,0,.06);
+    border-radius: 30px;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: clamp(40px,6vw,72px);
+    line-height: 1.03;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
+}
+
+h1 span,
+.section-heading h2 span,
+.offer-box h2 span {
+    color: var(--yellow);
+}
+
+.hero-description {
+    max-width: 510px;
+    color: #c6c6c6;
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+
+.price-label {
+    color: #c8c8c8;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 2px 0 25px;
+}
+
+.price small {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.price strong {
+    font-size: clamp(45px,6vw,65px);
+    line-height: 1.15;
+    letter-spacing: -3px;
+    color: var(--yellow);
+}
+
+.price-note {
+    font-size: 13px;
+    color: #b9b9b9;
+    margin-top: -15px;
+    margin-bottom: 26px;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn {
+    min-height: 54px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 15px 23px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    transition: transform .2s, background .2s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: var(--yellow);
+    color: #111;
+    box-shadow: 0 8px 30px rgba(255,229,0,.12);
+}
+
+.btn-primary:hover {
+    background: #fff06a;
+}
+
+.btn-outline {
+    border-color: #505050;
+    color: white;
+    background: rgba(255,255,255,.03);
+}
+
+.btn-outline:hover {
+    border-color: var(--yellow);
+}
+
+.hero-product {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card {
+    width: 100%;
+    max-width: 410px;
+    min-height: 370px;
+    border: 1px solid #363636;
+    border-radius: 24px;
+    background: linear-gradient(145deg,#242424,#111111 75%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 24px;
+    text-align: center;
+    box-shadow: 0 30px 80px rgba(0,0,0,.35);
+}
+
+.product-symbol {
+    font-size: 92px;
+    line-height: 1.4;
+    color: var(--yellow);
+}
+
+.product-card h2 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.product-card p {
+    color: #a5a5a5;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.product-tag {
+    display: inline-block;
+    background: var(--yellow);
+    color: #111;
+    border-radius: 30px;
+    padding: 7px 13px;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+.trust-strip {
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
+    background: #151515;
+    padding: 20px 0;
+}
+
+.trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 18px;
+}
+
+.trust-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #e8e8e8;
+    font-size: 13px;
+}
+
+.trust-icon {
+    color: var(--yellow);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.content-section {
+    padding: 85px 0;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 690px;
+    margin: 0 auto 45px;
+}
+
+.section-heading .eyebrow {
+    margin-bottom: 15px;
+}
+
+.section-heading h2 {
+    font-size: clamp(30px,4vw,45px);
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    color: #aaa;
+    font-size: 15px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 17px;
+}
+
+.feature {
+    background: linear-gradient(145deg,#202020,#151515);
+    border: 1px solid #303030;
+    border-radius: 14px;
+    padding: 27px 21px;
+    transition: border-color .2s, transform .2s;
+}
+
+.feature:hover {
+    border-color: rgba(255,229,0,.5);
+    transform: translateY(-4px);
+}
+
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: rgba(255,229,0,.09);
+    color: var(--yellow);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+
+.feature p {
+    font-size: 13px;
+    color: #a9a9a9;
+}
+
+.uses-section,
+.faq-section {
+    background: #151515;
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+.uses-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+.use-card {
+    padding: 28px 18px;
+    background: #1d1d1d;
+    border: 1px solid #333;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.use-icon {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.use-card h3 {
+    color: var(--yellow);
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.use-card p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.offer-section {
+    padding: 85px 0;
+}
+
+.offer-box {
+    padding: 55px 25px;
+    text-align: center;
+    border: 1px solid rgba(255,229,0,.32);
+    border-radius: 22px;
+    background:
+        radial-gradient(ellipse at top,rgba(255,229,0,.09),transparent 60%),
+        #171717;
+}
+
+.offer-box h2 {
+    font-size: clamp(30px,5vw,47px);
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+    margin-bottom: 14px;
+}
+
+.offer-box > p {
+    max-width: 580px;
+    margin: 0 auto 25px;
+    color: #bdbdbd;
+    font-size: 15px;
+}
+
+.offer-price {
+    font-size: clamp(49px,7vw,75px);
+    color: var(--yellow);
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.offer-caption {
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 27px !important;
+}
+
+.offer-box .btn {
+    min-width: 260px;
+}
+
+.faq-list {
+    max-width: 780px;
+    margin: auto;
+}
+
+details {
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: #1c1c1c;
+    overflow: hidden;
+}
+
+summary {
+    padding: 19px 21px;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: "+";
+    color: var(--yellow);
+    font-size: 23px;
+}
+
+details[open] summary::after {
+    content: "−";
+}
+
+details p {
+    padding: 0 21px 20px;
+    color: #b5b5b5;
+    font-size: 14px;
+}
+
+.final-cta {
+    text-align: center;
+    padding: 65px 0;
+}
+
+.final-cta h2 {
+    font-size: clamp(27px,4vw,39px);
+    line-height: 1.2;
+    margin-bottom: 13px;
+}
+
+.final-cta p {
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding: 35px 0 25px;
+    border-top: 1px solid #303030;
+    background: #0b0b0b;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+
+.footer-top p {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #bcbcbc;
+}
+
+.footer-links a:hover {
+    color: var(--yellow);
+}
+
+.footer-bottom {
+    padding-top: 18px;
+    border-top: 1px solid #242424;
+    color: #777;
+    font-size: 11px;
+    text-align: center;
+}
+
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 200;
+    background: var(--green);
+    color: white;
+    border-radius: 50px;
+    padding: 14px 19px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    box-shadow: 0 7px 28px rgba(0,0,0,.35);
+    font-size: 13px;
+    font-weight: 800;
+    transition: transform .2s;
+}
+
+.whatsapp-float:hover {
+    transform: translateY(-3px);
+}
+
+.whatsapp-icon {
+    font-size: 21px;
+}
+
+@media (max-width: 900px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero-copy {
+        text-align: center;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .price,
+    .actions {
+        justify-content: center;
+    }
+
+    .hero-product {
+        min-height: auto;
+    }
+
+    .product-card {
+        min-height: 310px;
+    }
+
+    .features-grid,
+    .uses-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 91%;
+    }
+
+    .hero {
+        padding: 48px 0 55px;
+    }
+
+    h1 {
+        font-size: 43px;
+        letter-spacing: -2px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .price strong {
+        font-size: 55px;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .product-card {
+        min-height: 280px;
+        padding: 28px 18px;
+    }
+
+    .product-symbol {
+        font-size: 76px;
+    }
+
+    .trust-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .trust-item {
+        justify-content: flex-start;
+    }
+
+    .content-section {
+        padding: 62px 0;
+    }
+
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .features-grid,
+    .uses-grid {
+        gap: 10px;
+    }
+
+    .feature {
+        padding: 20px 15px;
+    }
+
+    .feature h3 {
+        font-size: 15px;
+    }
+
+    .feature p,
+    .use-card p {
+        font-size: 12px;
+    }
+
+    .use-card {
+        padding: 22px 12px;
+    }
+
+    .offer-section {
+        padding: 60px 0;
+    }
+
+    .offer-box {
+        padding: 40px 19px;
+    }
+
+    .offer-box .btn {
+        min-width: 0;
+    }
+
+    .footer-top {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .whatsapp-float {
+        right: 12px;
+        bottom: 12px;
+        padding: 13px 16px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *, *::before, *::after {
+        transition-duration: .01ms !important;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<main>
+
+<section class="hero" id="inicio">
+    <div class="container hero-grid">
+
+        <div class="hero-copy">
+            <span class="eyebrow">Praticidade no seu dia a dia</span>
+
+            <h1>
+                Limpeza prática.<br>
+                Resultado <span>impressionante.</span>
+            </h1>
+
+            <p class="hero-description">
+                Conheça o aspirador portátil que ajuda você a manter
+                seu carro, sua casa e seus espaços favoritos mais limpos,
+                sem complicação.
+            </p>
+
+            <div class="price-label">Oferta especial</div>
+
+            <div class="price">
+                <small>R$</small>
+                <strong>97,50</strong>
+            </div>
+
+            <p class="price-note">
+                Consulte as condições de pagamento e entrega no checkout.
+            </p>
+
+            <div class="actions">
+                <a href="https://pay.kaiross.com.br/QG5qrpu0q2FB"
+                   class="btn btn-primary"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    QUERO O MEU AGORA &rarr;
+                </a>
+
+                <a href="#beneficios" class="btn btn-outline">
+                    CONHECER O PRODUTO
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-product">
+            <div class="product-card">
+                <div class="product-symbol" aria-hidden="true">✦</div>
+                <h2>Aspirador Portátil</h2>
+                <p>
+                    Compacto, prático e pensado para facilitar
+                    sua rotina de limpeza.
+                </p>
+                <span class="product-tag">Seu aliado na limpeza</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="trust-strip">
+    <div class="container trust-grid">
+        <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">✓</span>
+            <span>Compra pelo checkout online</span>
+        </div>
+
+        <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">↗</span>
+            <span>Praticidade para o dia a dia</span>
+        </div>
+
+        <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">♡</span>
+            <span>Atendimento pelo WhatsApp</span>
+        </div>
+    </div>
+</div>
+
+<section class="content-section" id="beneficios">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">Mais praticidade</span>
+
+            <h2>
+                Pequeno no tamanho.<br>
+                <span>Grande na praticidade.</span>
+            </h2>
+
+            <p>
+                Uma solução compacta para ajudar você a cuidar
+                melhor dos seus espaços, com mais facilidade.
+            </p>
+        </div>
+
+        <div class="features-grid">
+
+            <article class="feature">
+                <div class="feature-icon" aria-hidden="true">✧</div>
+                <h3>Limpeza prática</h3>
+                <p>
+                    Ajuda a remover poeira e pequenas sujeiras
+                    do dia a dia.
+                </p>
+            </article>
+
+            <article class="feature">
+                <div class="feature-icon" aria-hidden="true">↻</div>
+                <h3>Alimentação USB</h3>
+                <p>
+                    O modelo acompanha cabo USB para alimentação.
+                    Confira os requisitos de uso do produto.
+                </p>
+            </article>
+
+            <article class="feature">
+                <div class="feature-icon" aria-hidden="true">➤</div>
+                <h3>Formato compacto</h3>
+                <p>
+                    Fácil de guardar e conveniente para ter
+                    por perto quando precisar.
+                </p>
+            </article>
+
+            <article class="feature">
+                <div class="feature-icon" aria-hidden="true">▦</div>
+                <h3>Acessórios inclusos</h3>
+                <p>
+                    Acompanha acessórios para auxiliar na limpeza
+                    de diferentes áreas.
+                </p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section class="content-section uses-section" id="utilidades">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">Versatilidade</span>
+
+            <h2>
+                Um aliado para<br>
+                <span>vários momentos.</span>
+            </h2>
+
+            <p>
+                Tenha mais praticidade na hora de cuidar dos
+                pequenos detalhes da sua rotina.
+            </p>
+        </div>
+
+        <div class="uses-grid">
+
+            <article class="use-card">
+                <div class="use-icon" aria-hidden="true">🚗</div>
+                <h3>Carro</h3>
+                <p>
+                    Ajude a manter os bancos e cantinhos do
+                    veículo mais limpos.
+                </p>
+            </article>
+
+            <article class="use-card">
+                <div class="use-icon" aria-hidden="true">⌂</div>
+                <h3>Casa</h3>
+                <p>
+                    Praticidade para pequenas tarefas
+                    de limpeza doméstica.
+                </p>
+            </article>
+
+            <article class="use-card">
+                <div class="use-icon" aria-hidden="true">▤</div>
+                <h3>Escritório</h3>
+                <p>
+                    Cuide da limpeza de superfícies e
+                    espaços de trabalho.
+                </p>
+            </article>
+
+            <article class="use-card">
+                <div class="use-icon" aria-hidden="true">⌨</div>
+                <h3>Cantinhos</h3>
+                <p>
+                    Utilize o acessório adequado para
+                    alcançar áreas menores.
+                </p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section class="offer-section" id="oferta">
+    <div class="container">
+
+        <div class="offer-box">
+            <span class="eyebrow">Seu próximo aliado na limpeza</span>
+
+            <h2>
+                Simplifique sua rotina<br>
+                <span>por apenas R$ 97,50.</span>
+            </h2>
+
+            <p>
+                Aproveite a praticidade de um aspirador compacto
+                e faça seu pedido diretamente pela página de pagamento.
+            </p>
+
+            <div class="offer-price">R$ 97,50</div>
+
+            <p class="offer-caption">
+                Confira o valor final, o frete e as condições de pagamento
+                antes de concluir sua compra.
+            </p>
+
+            <a href="https://pay.kaiross.com.br/QG5qrpu0q2FB"
+               class="btn btn-primary"
+               target="_blank"
+               rel="noopener noreferrer">
+                COMPRAR AGORA &rarr;
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section class="content-section faq-section" id="duvidas">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="eyebrow">Central de dúvidas</span>
+
+            <h2>
+                Perguntas <span>frequentes.</span>
+            </h2>
+
+            <p>
+                Tire suas dúvidas antes de finalizar o pedido.
+            </p>
+        </div>
+
+        <div class="faq-list">
+
+            <details>
+                <summary>Qual é o preço do aspirador?</summary>
+                <p>
+                    O preço anunciado nesta página é de R$ 97,50.
+                    Confira o valor final e as condições disponíveis
+                    na página de pagamento.
+                </p>
+            </details>
+
+            <details>
+                <summary>Como faço para comprar?</summary>
+                <p>
+                    Clique em qualquer botão de compra desta página.
+                    Você será direcionado ao checkout para conferir
+                    as informações do pedido e finalizar a compra.
+                </p>
+            </details>
+
+            <details>
+                <summary>O produto acompanha acessórios?</summary>
+                <p>
+                    O conjunto apresentado inclui acessórios e cabo USB.
+                    Confira a descrição do anúncio e os itens informados
+                    no checkout antes de concluir o pedido.
+                </p>
+            </details>
+
+            <details>
+                <summary>Como funciona a entrega?</summary>
+                <p>
+                    Consulte as opções de envio, o prazo estimado
+                    e o valor do frete informados durante o processo
+                    de compra.
+                </p>
+            </details>
+
+            <details>
+                <summary>Posso tirar dúvidas pelo WhatsApp?</summary>
+                <p>
+                    Sim. Utilize o botão de WhatsApp nesta página
+                    para entrar em contato e esclarecer suas dúvidas.
+                </p>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+<section class="final-cta">
+    <div class="container">
+
+        <h2>Mais praticidade começa com uma escolha.</h2>
+
+        <p>
+            Confira o produto e faça seu pedido online.
+        </p>
+
+        <a href="https://pay.kaiross.com.br/QG5qrpu0q2FB"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener noreferrer">
+            GARANTIR MEU ASPIRADOR &rarr;
+        </a>
+
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="container">
+
+        <div class="footer-top">
+            <p>
+                Praticidade para deixar sua rotina mais simples.
+            </p>
+
+            <div class="footer-links">
+                <a href="#beneficios">Benefícios</a>
+                <a href="#duvidas">Dúvidas</a>
+
+                <a href="https://pay.kaiross.com.br/QG5qrpu0q2FB"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Comprar
+                </a>
+
+                <a href="https://wa.me/5511920776713?text=Ol%C3%A1%21%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20aspirador%20port%C3%A1til."
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © <span id="current-year">2026</span>.
+                Todos os direitos reservados.
+            </p>
+
+            <p>
+                Confirme os valores, as condições de pagamento
+                e a entrega no checkout.
+            </p>
+        </div>
+
+    </div>
+</footer>
+
+<a class="whatsapp-float"
+   href="https://wa.me/5511920776713?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20aspirador%20port%C3%A1til%20de%20R%24%2097%2C50."
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Falar com o atendimento pelo WhatsApp">
+
+    <span class="whatsapp-icon" aria-hidden="true">◉</span>
+    <span>Falar no WhatsApp</span>
+
+</a>
+
+<script>
+document.getElementById("current-year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
+ndimento pelo WhatsApp</span>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="content-section" id="beneficios">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">Mais praticidade</span>
+
+                    <h2>
+                        Pequeno no tamanho.<br>
+                        <span>Grande na praticidade.</span>
+                    </h2>
+
+                    <p>
+                        Uma solução compacta para ajudar você a cuidar
+                        melhor dos seus espaços, com mais facilidade.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+
+                    <article class="feature">
+                        <div class="feature-icon" aria-hidden="true">✧</div>
+                        <h3>Limpeza prática</h3>
+                        <p>
+                            Ajuda a remover poeira e pequenas sujeiras
+                            do dia a dia.
+                        </p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-icon" aria-hidden="true">↻</div>
+                        <h3>Alimentação USB</h3>
+                        <p>
+                            O modelo acompanha cabo USB para alimentação.
+                            Confira os requisitos de uso do produto.
+                        </p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-icon" aria-hidden="true">➤</div>
+                        <h3>Formato compacto</h3>
+                        <p>
+                            Fácil de guardar e conveniente para ter
+                            por perto quando precisar.
+                        </p>
+                    </article>
+
+                    <article class="feature">
+                        <div class="feature-icon" aria-hidden="true">▦</div>
+                        <h3>Acessórios inclusos</h3>
+                        <p>
+                            Acompanha acessórios para auxiliar na limpeza
+                            de diferentes áreas.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section uses-section" id="utilidades">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">Versatilidade</span>
+
+                    <h2>
+                        Um aliado para<br>
+                        <span>vários momentos.</span>
+                    </h2>
+
+                    <p>
+                        Tenha mais praticidade na hora de cuidar dos
+                        pequenos detalhes da sua rotina.
+                    </p>
+                </div>
+
+                <div class="uses-grid">
+
+                    <article class="use-card">
+                        <div class="use-icon" aria-hidden="true">🚗</div>
+                        <h3>Carro</h3>
+                        <p>
+                            Ajude a manter os bancos e cantinhos do
+                            veículo mais limpos.
+                        </p>
+                    </article>
+
+                    <article class="use-card">
+                        <div class="use-icon" aria-hidden="true">⌂</div>
+                        <h3>Casa</h3>
+                        <p>
+                            Praticidade para pequenas tarefas
+                            de limpeza doméstica.
+                        </p>
+                    </article>
+
+                    <article class="use-card">
+                        <div class="use-icon" aria-hidden="true">▤</div>
+                        <h3>Escritório</h3>
+                        <p>
+                            Cuide da limpeza de superfícies e
+                            espaços de trabalho.
+                        </p>
+                    </article>
+
+                    <article class="use-card">
+                        <div class="use-icon" aria-hidden="true">⌨</div>
+                        <h3>Cantinhos</h3>
+                        <p>
+                            Utilize o acessório adequado para
+                            alcançar áreas menores.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="offer-section" id="oferta">
+            <div class="container">
+
+                <div class="offer-box">
+                    <span class="eyebrow">Seu próximo aliado na limpeza</span>
+
+                    <h2>
+                        Simplifique sua rotina<br>
+                        <span>por apenas R$ 97,50.</span>
+                    </h2>
+
+                    <p>
+                        Aproveite a praticidade de um aspirador compacto
+                        e faça seu pedido diretamente pela página de pagamento.
+                    </p>
+
+                    <div class="offer-price">R$ 97,50</div>
+
+                    <p class="offer-caption">
+                        Confira o valor final, o frete e as condições de pagamento
+                        antes de concluir sua compra.
+                    </p>
+
+                    <a href="https://pay.kaiross.com.br/QG5qrpu0q2FB"
+                       class="btn btn-primary"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        COMPRAR AGORA &rarr;
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="content-section faq-section" id="duvidas">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">Central de dúvidas</span>
+
+                    <h2>
+                        Perguntas <span>frequentes.</span>
+                    </h2>
+
+                    <p>
+                        Tire suas dúvidas antes de finalizar o pedido.
+                    </p>
+                </div>
+
+                <div class="faq-list">
+
+                    <details>
+                        <summary>Qual é o preço do aspirador?</summary>
+                        <p>
+                            O preço anunciado nesta página é de R$ 97,50.
+                            Confira o valor final e as condições disponíveis
+                            na página de pagamento.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Como faço para comprar?</summary>
+                        <p>
+                            Clique em qualquer botão de compra desta página.
+                            Você será direcionado ao checkout para conferir
+                            as informações do pedido e finalizar a compra.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>O produto acompanha acessórios?</summary>
+                        <p>
+                            O conjunto apresentado inclui acessórios e cabo USB.
+                            Confira a descrição do anúncio e os itens informados
+                            no checkout antes de concluir o pedido.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Como funciona a entrega?</summary>
+                        <p>
+                            Consulte as opções de envio, o prazo estimado
+                            e o valor do frete informados durante o processo
+                            de compra.
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Posso tirar dúvidas pelo WhatsApp?</summary>
+                        <p>
+                            Sim. Utilize o botão de WhatsApp nesta página
+                            para entrar em contato e esclarecer suas dúvidas.
+                        </p>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <div class="container">
+
+                <h2>Mais praticidade começa com uma escolha.</h2>
+
+                <p>
+                    Confira o produto e faça seu pedido online.
+                </p>
+
+                <a href="https://pay.kaiross.com.br/QG5qrpu0q2FB"
+                   class="btn btn-primary"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GARANTIR MEU ASPIRADOR &rarr;
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer-top">
+
+                <a href="#inicio" class="logo">
+                    CLEAN<span>PRO.</span>
+                </a>
+
+                <p>
+                    Praticidade para deixar sua rotina mais simples.
+                </p>
+
+                <div class="footer-links">
+                    <a href="#beneficios">Benefícios</a>
+                    <a href="#duvidas">Dúvidas</a>
+                    <a href="https://pay.kaiross.com.br/QG5qrpu0q2FB"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Comprar
+                    </a>
+                    <a href="https://wa.me/5511920776713?text=Ol%C3%A1%21%20Tenho%20uma%20d%C3%BAvida%20sobre%20o%20aspirador%20port%C3%A1til."
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        WhatsApp
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © <span id="current-year">2026</span> CleanPro.
+                    Todos os direitos reservados.
+                </p>
+                <p>
+                    Os valores, as condições de pagamento e a entrega
+                    devem ser confirmados no checkout.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <a class="whatsapp-float"
+       href="https://wa.me/5511920776713?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20aspirador%20port%C3%A1til%20de%20R%24%2097%2C50."
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Falar com o atendimento pelo WhatsApp">
+
+        <span class="whatsapp-icon" aria-hidden="true">◉</span>
+        <span>Falar no WhatsApp</span>
+
+    </a>
+
+    <script>
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
